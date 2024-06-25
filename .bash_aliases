@@ -1,0 +1,15 @@
+alias fa=fastfetch
+alias c=clear
+alias n=nano
+alias ..='cd ..'
+alias uu="sudo apt-get update && sudo apt-get upgrade"
+alias aac="sudo apt-get clean && sudo apt-get autoclean && sudo apt-get autoremove"
+alias lsd='ls -d */'
+alias ebrc='nano ~/.bashrc'
+alias bali='nano ~/.bash_aliases'
+alias ptero='cd /var/www/pterodactyl'
+alias h="history | grep "
+alias rebr='source ~/.bashrc'
+alias reba='source ~/.bash_aliases'
+alias bd='cd "$OLDPWD"'
+alias restart='systemctl restart'
