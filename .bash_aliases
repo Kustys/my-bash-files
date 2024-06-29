@@ -21,4 +21,5 @@ alias bremove='blueprint -install'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
-
+alias ss='screen -S'
+alias sr='screen -r'
