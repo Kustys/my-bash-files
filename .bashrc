@@ -7,6 +7,10 @@ case $- in
       *) return;;
 esac
 
+cd() {
+    builtin cd "$@" && ls --color=auto
+}
+
 ver() {
 	local dtype
 	dtype=$(distribution)
